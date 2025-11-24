@@ -1,3 +1,38 @@
 # Chitra-Caption-Net
 
-Automatic image captioning is a task which combines the challenges of computer vision and natural language processing. It necessitates identifying the key elements, their characteristics, and their connections within an image. One of the most crucial components of image captioning is the concept of attention: how to determine what to describe and how to do it. In this work, we proposed \textbf{Chitra Caption-Net}, which is designed for hybrid tasks involving both spatial and sequential data, incorporating dense embedding and  an implicit decoding transformer consist of custom decoder and encoder. The performance of our proposed model was evaluated on BAN-Cap, BanglaLekha, and Flickr8k (Nepali Version) datasets, and Chitra Caption-Net outperforms other state-of-the-art models, by obtaining BLEU-4, METEOR, and CIDEr scores of 20.86, 26.61, and 21.85; 62.86, 67.16, and 60.57; 69.24, 51.50, and 46.72, respectively.
+Chitra-Caption-Net is an automatic image captioning model that integrates both **computer vision** and **natural language processing** to generate descriptive captions from images. Image captioning requires identifying key objects, attributes, and relationships within an image and expressing them through natural language.
+
+A crucial component of this task is **attention**—deciding *what* to describe and *how* to focus on specific regions of the image.  
+To address this, Chitra Caption-Net introduces a **hybrid architecture** capable of handling both **spatial** and **sequential** information. The model incorporates **dense visual embedding** and an **implicit decoding Transformer** built with a custom encoder–decoder design.
+
+---
+
+## 🚀 Model Features
+
+- Hybrid design for spatial + sequential data  
+- Dense image embedding  
+- Custom Transformer encoder and decoder  
+- Implicit decoding for improved caption fluency  
+- Optimized for multilingual datasets (Bangla and Nepali)  
+- Outperforms existing models on benchmark datasets
+
+---
+
+## 📊 Dataset Evaluation
+
+Chitra Caption-Net was evaluated on:
+
+- **BAN-Cap**  
+- **BanglaLekha**  
+- **Flickr8k (Nepali Version)**  
+
+The model achieved state-of-the-art performance:
+
+| Dataset | BLEU-4 | METEOR | CIDEr |
+|--------|--------|--------|-------|
+| **BAN-Cap** | 20.86 | 26.61 | 21.85 |
+| **BanglaLekha** | 62.86 | 67.16 | 60.57 |
+| **Flickr8k (Nepali)** | 69.24 | 51.50 | 46.72 |
+
+---
+
